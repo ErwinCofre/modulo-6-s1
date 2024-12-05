@@ -12,7 +12,7 @@ public class Automovil {
         if(motor!=null){
             this.motor.encender();
         }else{
-            System.out.println("No se puede encender el motor");
+            System.out.println("No se puede encender el motor por que no existe motor en la instancia");
         }
 
     }
